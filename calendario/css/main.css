@@ -1,0 +1,55 @@
+/*Input Datos*/
+input[type="date"] {
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #F0A500 url(img/calendario.pgn);
+    background-size: 30px; 
+    background-repeat: no-repeat;
+    background-position: 90%;
+    padding: 5%;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+input:focus{
+    border: 5px solid #334756;
+}
+input[type="date"]::-webkit-calender-picker-indicator {
+    opacity: 0;
+}
+/*Input hora*/
+
+input[type="time"] {
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #F0A500 url(img/reloj.pgn);
+    background-size: 30px; 
+    background-repeat: no-repeat;
+    background-position: 90%;
+    padding: 5%;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+input:focus{
+    border: 5px solid #334756;
+}
+input[type="date"]::-webkit-calender-picker-indicator {
+    opacity: 0;
+}
+
+h2 {
+  font-size: 3rem !important; 
+}
